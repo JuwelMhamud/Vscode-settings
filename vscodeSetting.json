@@ -1,0 +1,130 @@
+
+// editor
+
+{
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "typescript": "jsx"
+    },
+  
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+  
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+    "workbench.colorTheme": "Learn with Sumit Theme",
+    "workbench.iconTheme": "vscode-icons",
+  
+    // Terminal Customizations
+    "workbench.colorCustomizations": {
+      "terminal.background": "#1D2021",
+      "terminal.foreground": "#A89984",
+      "terminalCursor.background": "#A89984",
+      "terminalCursor.foreground": "#A89984",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#FAC03B",
+      "terminal.ansiCyan": "#8BA59B",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "none",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.stickyScroll.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+  
+    // linter and prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.run": "onSave",
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.excludedItems": {
+      "*/.js": {
+        "when": "**"
+      },
+      "*/.jsx": {
+        "when": "**"
+      }
+    },
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    "typescript.suggestionActions.enabled": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+  
+    
+  
+    // if face auto suggestion problem
+    // "typescript.tsdk": "node_modules/typescript/lib",
+    // "typescript.enablePromptUseWorkspaceTsdk": true,
+    // "typescript.preferences.quoteStyle": "single",
+    // "typescript.preferences.importModuleSpecifier": "non-relative",
+    // "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    // "typescript.tsserver.log": "verbose",
+    // "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    // "typescript.check.tscVersion": false,
+    // "typescript.tsserver.logToFile": "verbose",
+    // "typescript.tsc.autoDetect": "on",
+    // "typescript.experimental.syntaxFolding": true,
+    // "typescript.referencesCodeLens.enabled": true,
+    // "typescript.suggest.completeFunctionCalls": false,
+    // "typescript.updateImportsOnFileMove.enabled": "always",
+    // "typescript.tsc.delay": "always",
+    // "typescript.tsc.file": "auto",
+    // "typescript.tsc.onSave": "off",
+    // "typescript.tsc.onType": "off",
+    // "tailwind-fold.unfoldIfLineSelected": true,
+    // "tailwind-fold.foldStyle": "QUOTES"
+  }
+  
