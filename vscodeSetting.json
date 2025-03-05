@@ -126,5 +126,129 @@
     // "typescript.tsc.onType": "off",
     // "tailwind-fold.unfoldIfLineSelected": true,
     // "tailwind-fold.foldStyle": "QUOTES"
+
+//----
+    // currently i'm using this settings
+    
+{
+    // editor
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.5,
+    // "editor.letterSpacing":0.4,
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    // "editor.fontweight" : "400",
+    "editor.wordWrap": "on",
+    // "editor.fontLigatures": "'calt', '&&01'",
+    "editor.minimap.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+    "editor.occurrencesHighlight": "singleFile",
+    "editor.tabSize": 4,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "eslint.run": "onSave",
+    "prettier.tabWidth": 4,
+    // explorer
+    "explorer.confirmDelete": false,
+    "explorer.openEditors.visible": 1,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#35ecec",
+
+        // terminal colors
+        "terminal.background": "#191b1b",
+        "terminal.foreground": "#34aa90",
+        "terminalCursor.background": "#7bf0c9",
+        "terminalCursor.foreground": "#71cebe",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#0D6678",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#95C085",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#FAC03B",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#95C085",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B"
+    },
+
+    // terminal
+    "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.lineHeight": 1.2,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // icon theme
+    "workbench.iconTheme": "vscode-icons",
+    // emmit
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    "editor.inlineSuggest.enabled": true,
+    "javascript.validate.enable": true,
+    "typescript.validate.enable": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Learn with Sumit Theme",
+    "workbench.startupEditor": "none",
+    "tabnine.experimentalAutoImports": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "workbench.productIconTheme": "fluent-icons",
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    // path autocomplete
+
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.excludedItems": {
+        "*/.js": {
+            "when": "**"
+        },
+        "*/.jsx": {
+            "when": "**"
+        }
+    }
+}
+
+
+
+//------
   }
   
